@@ -58,7 +58,30 @@
             justify-content: space-around;
         }
     }
-
+    .client
+    {
+        &__block
+        {
+            flex-wrap: wrap;
+        }
+        &__round
+        {
+            margin: 0 auto;
+        }
+        &__descr
+        {
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .title.title-1
+        {
+            margin-top: 10px;
+            width: 100%;
+            text-align: center;;
+        }
+    }
 
 }
 @media (max-width: 767px)
